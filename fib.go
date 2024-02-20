@@ -25,5 +25,5 @@ func sum(num int) {
 }
 func main() {
 	sum(23)
-	sum(30)
+	sum(40)
 }

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	n := factorial(7)
+	n := factorial(10)
 	fmt.Println(n)
 }
 func factorial(n int) int {

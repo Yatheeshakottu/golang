@@ -31,7 +31,7 @@ func totalmilage(m []motorvehicle) {
 	}
 	fmt.Printf("the total milage per month %f", tm)
 }
-func totalmilage(m)
+
 func main() {
 	s := BMW{
 		distance:     899,

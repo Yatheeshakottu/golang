@@ -12,7 +12,8 @@ func gcd(a, b int) int {
 
 // Function to find the LCM of two numbers
 func lcm(a, b int) int {
-	return (a * b) / gcd(a, b)
+	return (a * b) / gcd(a, b)//6,.mn Calculate the LCM using the formula LCM(a, b) = (a * b) / GCD(a, b)
+   
 }
 
 func main() {

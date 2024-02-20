@@ -32,3 +32,4 @@ func main() {
 	fmt.Println(twosum([]int{2, 4, 5, 11, 15}, 9))
 	//fmt.Println(twosummap([]int{2, 4, 5, 11, 15}, 9))
 }
+ 

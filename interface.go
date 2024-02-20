@@ -1,4 +1,4 @@
- package main
+package main
 
 import (
 	"fmt"
@@ -21,10 +21,6 @@ type human interface {
 	speak()
 }
 
-func bar(h human) {
-	fmt.Println("i called human")
-}
-
 func main() {
 	p1 := secreatagent{
 		person: person{
@@ -40,13 +36,13 @@ func main() {
 		},
 		ltk: true,
 	}
-	p3 := person{
+	/*	p3 := person{
 		first: "Dr.",
 		last:  "james",
-	}
+	}*/
 
-	fmt.Println(p1)
+	//fmt.Println(p1)
 	p1.speak()
 	p2.speak()
-	fmt.Println(p3)
+	//	fmt.Println(p3)
 }

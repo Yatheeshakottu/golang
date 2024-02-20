@@ -10,4 +10,13 @@ func main() {
 	fmt.Println(&a)
 	fmt.Printf("%T\n", a)
 	fmt.Printf("%T\n", &a)
+	b := &a
+	fmt.Println(b)
+	fmt.Println(*b)
+	fmt.Println("the address of b", 
+	&b)
+	fmt.Println(*&b)
+	*b = 47
+	fmt.Println(a)
+
 }
